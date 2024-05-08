@@ -6,7 +6,7 @@ import Image from "next/image";
         <Image
           width={1500}
           height={1500}
-          src="/plastics_feat.jpg"
+          src="/placeholder-image.jpeg"
           alt=""
           className="absolute inset-0 -z-10 h-full md:h[80vh] w-full object-cover object-center md:object-center"
         />
@@ -38,10 +38,10 @@ import Image from "next/image";
           <div className="mx-auto max-w-2xl lg:mx-0">
            
             <h1 className="mb-8 text-4xl font-extrabold leading-none tracking-normal text-white  md:text-6xl md:tracking-tight">
-                <span>Transforming waste into</span> <span className="block w-full py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-green-400 to-purple-500 lg:inline">Sustainable</span> <span>Building Solutions</span>
+                <span>Welcome to Christian Life Academy</span> 
             </h1>
             <p className="mt-6 text-base lg:text-lg leading-8 text-gray-300">
-              Build Smart. Build Green.
+              Christ-centered education
             </p>
           </div>
         </div>

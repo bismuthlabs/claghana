@@ -54,23 +54,23 @@ export default function Faq() {
     const faqsList = [
         {
             id: 1,
-            q: "What are the benefit of using Reecoplast's pavement bricks and pellets?",
-            a: "Our pavement bricks and pellets are made from 100% recycled plastic waste, offering a sustainable alternative to traditional construction materials. They are durable, waterproof, and exceed industry standards in compressive strength, ensureing high-quality and long-lasting structures."
+            q: "What is the admissions process like at Christian Life Academy?",
+            a: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend felis nec quam consequat, in consectetur magna dictum. Ut nec sapien vel sem tincidunt posuere. Phasellus vestibulum justo id efficitur lobortis. Quisque euismod leo id odio ultricies, ac vulputate nulla fringilla."
         },
         {
             id: 2,
-            q: "How does choosing Reecoplast's products contribute to sustainability?",
-            a: "By choosing our products, you actively contribute to reducing plastic waste and promoting environmental preservation. Each brick and pellet you use is a step towards a greener future, supporting the reduction of landfill burden and minimizing the extraction of natural resources."
+            q: "What is the tuition cost and are there any financial aid options available?",
+            a: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend felis nec quam consequat, in consectetur magna dictum. Ut nec sapien vel sem tincidunt posuere. Phasellus vestibulum justo id efficitur lobortis. Quisque euismod leo id odio ultricies, ac vulputate nulla fringilla."
         },
         {
             id: 3,
-            q: "How does Reecoplast ensure transparency and customer satisfaction?",
-            a: "As a socially responsible company, we prioritize transparency, quality, and customer satisfaction. We maintain open communication, provide detailed information about our products and processes, and strive to exceed expectations. Our commitment to excellence extends to building meaningful partnerships with construction companies, plastic manufacturers, and packaging companies that share our vision."
+            q: "What is the curriculum like at Christian Life Academy?",
+            a: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend felis nec quam consequat, in consectetur magna dictum. Ut nec sapien vel sem tincidunt posuere. Phasellus vestibulum justo id efficitur lobortis. Quisque euismod leo id odio ultricies, ac vulputate nulla fringilla."
         },
         {
             id: 4,
-            q: "How can I get involved or collaborate with Reecoplast?",
-            a: "We welcome collaboration and partnerships from organizations and individuals who share our passion for sustainability. Explore our website to learn more about our products, successful projects, and connect with us to explore collaboration opportunities. Together, let's build a world where plastic waste becomes a valuable resource and construction is sysnonymous with sustainability."
+            q: " What extracurricular activities are available for students?",
+            a: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend felis nec quam consequat, in consectetur magna dictum. Ut nec sapien vel sem tincidunt posuere. Phasellus vestibulum justo id efficitur lobortis. Quisque euismod leo id odio ultricies, ac vulputate nulla fringilla."
         },
     ]
   
@@ -79,7 +79,8 @@ export default function Faq() {
             <div className="bg-white sm:py-22">
                 <div className="mx-auto max-w-7xl lg:px-8">
                     <div className="mx-auto max-w-2xl lg:text-center">
-                    <h2 className="text-base font-semibold leading-7 text-gray-400">Frequently Asked Questions</h2>
+                    <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                Frequently asked questions</h2>
                     </div>
                 </div>
             </div>

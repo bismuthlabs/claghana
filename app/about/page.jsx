@@ -7,13 +7,9 @@ export default function Contact() {
             <div className="bg-white pt-16 sm:py-22">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl lg:text-center">
-                <h2 className="text-base font-semibold leading-7 text-gray-400">About us</h2>
-                <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                Welcome to Reecoplast
-                </p>
-                <p className="mt-6 text-lg leading-8 text-gray-600">
-                Where innovation meets environmental responsibility.
-                </p>
+                <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
+                        About us
+                    </h3>
                 </div>
                 <div className="mx-auto max-w-2xl px-4 py-12 sm:px-6 sm:py-18 lg:max-w-7xl lg:px-8">
                     <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-2 xl:gap-x-8">
@@ -24,20 +20,20 @@ export default function Contact() {
                             <Image
                                 width={1500}
                                 height={1500}
-                                src={'/plastic-recycle-demo.png'}
+                                src={'/placeholder-image.jpeg'}
                                 alt={'plastic and bricks'}
                                 className="w-full object-cover object-center lg:h lg:w-full"
                             />
                             </div>
                         </div>
                         <p className="mt-6 text-sm leading-8 text-gray-600">
-                            We believe in the power of innovation and sustainable. Our dedicated team, led by wonderful minds, is committed to rethinking the way we use and dispose off plastic.
+                        Christian Life Academy is established to provide a conducive learning atmosphere for kids, provide the best learning materials, and quality teachers. Our school is committed to creating an environment where students feel safe, supported, and inspired to excel academically and spiritually.  
                         <span className="block mt-6">
-                            Our pavement bricks and pellets are not just ordinary construction material - they are a testament to our unwavering commitment to environmental preservation. Every brick and pellet we produce is made from 100% recycled plastic waste, reducing the burden of landfills and minimizing the extration of natural resources.    
+                        With a focus on academic excellence, character development, and spiritual formation, we strive to equip students with the knowledge, skills, and values they need to thrive in today's world and make a positive impact in their communities.   
                         </span>    
                         </p>
                         <p className="mt-6 text-sm leading-8 text-gray-600">
-                            Join us on this remarkable journey towards a cleaner, more eco-friendly future. Together, let us build a world where plastic waste becomes a valuable resource and construction is synonymous with sustainability.</p>
+                        Through innovative teaching methods, engaging curriculum, and a Christ-centered approach to education, we aim to empower students to reach their full potential and become leaders of tomorrow.</p>
                     </div>
                 </div>
             </div>

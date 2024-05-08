@@ -11,7 +11,7 @@ export default function Testimonials() {
       name: "Sarah M",
       title: "GreenTech Solutions",
       quote:
-        "Impressed by the performance of recycled plastic pavement bricks. Smooth roads, reduced plastic waste, and a win for sustainability and aesthetics!",
+        "The supportive environment, dedicated teachers, and emphasis on spiritual growth have made all the difference. I've seen my child's confidence soar, their love for learning deepen, and their faith become a guiding light in their life. ",
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ export default function Testimonials() {
       name: "Angela Stian",
       title: "EcoTech Constructors",
       quote:
-        "Game-changer for our warehouse! Sturdy waste plastic pellets streamline logistics, reduce carbon footprint. A win-win solution for efficiency and sustainability.",
+        "Sending my children to Christian Life Academy was one of the best decisions I've ever made. My children have thrived academically, but more importantly, they've developed a strong foundation of faith and character that will serve them well for a lifetime.",
     },
     {
       id: 3,
@@ -27,7 +27,7 @@ export default function Testimonials() {
       name: "Karim Ahmed",
       title: "EcoConstruct Builders",
       quote:
-        "Skeptical at first, but amazed by recycled plastic pavement bricks. Easy installation, visual appeal, and low maintenance compared to traditional materials.",
+        "Christian Life Academy isn't just a school—it's a second home for my child. From the moment we stepped through the doors, we felt welcomed and embraced by the warm and caring community. ",
     },
   ];
 

@@ -39,7 +39,7 @@ export default function Footer() {
                                 }
                             </ul>
                         </div> 
-                    <p className="text-sm text-center">© 2023 Reecoplastghana. All rights reserved.</p>
+                    <p className="text-sm text-center">© 2023 Christian life academy. All rights reserved.</p>
                 </div>
             </div>
         </footer>

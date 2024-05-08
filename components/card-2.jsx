@@ -3,22 +3,40 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
+import { SiMicrosoftacademic } from "react-icons/si";
+import { LiaCrossSolid } from "react-icons/lia";
+import { TbPlayFootball } from "react-icons/tb";
+import { IoPeopleSharp } from "react-icons/io5";
 
 
 const products = [
   {
     id: 1,
-    description: 'Statistics on the Positive Environmental Impact of Recycled Plastics in Construction',
+    description: 'Our curriculum is designed to engage students intellectually, encourage critical thinking, and foster a lifelong love for learning.',
     href: '#',
-    title: 'Environmental Impact',
-    svg: '/care-earth-eco.svg',
+    title: 'Academics',
+    svg: <SiMicrosoftacademic />,
   },
   {
     id: 2,
-    description: 'We are focused on reducing plastic waste pollution and promoting sustainable building practices.',
+    description: 'We encourage students to grow in their faith and live out the values of love, compassion, and integrity in all areas of their lives.',
     href: '#',
-    title: 'Sustainability Initiative',
-    svg: '/recycle.png',
+    title: 'Spiritual development',
+    svg: <LiaCrossSolid />,
+  },
+  {
+    id: 2,
+    description: 'From sports teams to fine arts programs, there are opportunities for students to explore their interests, develop their talents, and build friendships that will last a lifetime.',
+    href: '#',
+    title: 'Extracurricular activities',
+    svg: <TbPlayFootball />,
+  },
+  {
+    id: 2,
+    description: 'Through outreach initiatives, mission trips, and partnerships with local organizations, we encourage students to put their faith into action and be a light in their communities.',
+    title: 'Community Involvement',
+    href: '#',
+    svg: <IoPeopleSharp />,
   },
   // More products...
 ];
@@ -41,23 +59,18 @@ export default function Card() {
           {products.map((product) => (
             <Link href={product.href} key={product.id}>
               <div
-                className={`group flex flex-col gap-y-4 bg-white p-6 drop-shadow-xl relative ${
-                  hoveredProductId === product.id ? 'text-green-400' : ''
-                }`}
+                className={`flex flex-col gap-y-4 bg-white p-6 drop-shadow-xl relative md:hover:bg-green-500`}
                 onMouseEnter={() => handleMouseEnter(product.id)}
                 onMouseLeave={handleMouseLeave}
               >
                 <div>
-                  <Image
-                    width={1500}
-                    height={1500}
-                    src={product.svg}
-                    alt={product.title}
-                    className="h-full w-[75px] object-cover object-center lg:h-full lg:w-[100px]"
-                  />
+                  <span className='text-6xl'>
+
+                  {product.svg}
+                  </span>
                 </div>
                 <div>
-                  <h2 className="text-2xl font-semibold text-black">{product.title}</h2>
+                  <h2 className="text-2xl font-semibold capitalize text-black">{product.title}</h2>
                 </div>
                 <div>
                   <h3 className="text-sm text-gray-700">

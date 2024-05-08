@@ -8,17 +8,17 @@ import { useState } from 'react';
 const products = [
   {
     id: 1,
-    description: 'Our pavement bricks are engineered using a unique blend of recycled platic waste and other additives to create a durable and waterproof solution for various construction projects.',
+    description: 'Our dedicated team of educators is committed to providing a nurturing and stimulating learning environment where every child feels valued and supported.',
     href: '#',
-    title: 'Reecoplast pavement bricks',
-    image: '/pavement-bricks.jpeg'
+    title: 'Dedicated Faculty and Staff',
+    image: '/placeholder-image.jpeg'
   },
   {
     id: 2,
-    description: 'We produce high-quality pellets made from recycled plastic waste. These pellets can be used as raw materials in various industries such as, plastic manufacturing, packaging and more.',
+    description: 'We understand that parents play a crucial role in their child’s education, which is why we offer resources and support to help parents stay involved and informed.',
     href: '#',
-    title: 'Reecoplast pellets',
-    image: '/plastic-palletes.jpeg',
+    title: 'Parent Resources',
+    image: '/placeholder-image.jpeg',
   },
   // More products...
 ];
